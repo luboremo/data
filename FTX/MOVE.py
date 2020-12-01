@@ -6,6 +6,14 @@ import datetime
 import time
 from dateutil.rrule import rrule, DAILY
 
+'''
+
+Downloads historical data of daily MOVE contracts from FTX.
+
+'''
+
+
+
 MOVE_daily_data = pd.DataFrame()
 MOVE_tick_daily_data = pd.DataFrame()
 
